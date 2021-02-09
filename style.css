@@ -1,3 +1,476 @@
-body{
+body {
+    margin: 0;
+    font-family: "Stolzl", sans-serif;
+    background: #4C1DD2;
+
+}
+
+header {
+
+    font-style: normal;
+    font-weight: normal;
+
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container {
+
+    height: 100vh;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.container__menu-header_logo {
+    margin-left: 58px;
+    flex: 0;
+}
+
+
+.container__menu-header_logo_img {
+    height: 25px;
+    width: 39px;
+
+}
+
+
+.container__menu-header {
+    margin-top: 48px;
+    height: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container__menu-header_contacts {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    margin-left: 58px;
+    letter-spacing: -1px;
+}
+
+.container__menu-header_menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.container__menu-header_contacts_button {
+    border: 5px solid #4F15F3;
+    background: #4F15F3;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 36px;
+    padding: 0 12px 0 17px;
+    margin-top: -5px;
+}
+
+
+.container__menu-header_menu_link {
+
+
+}
+
+.container__content {
+    width: 100%;
+    display: flex;
+}
+
+.container__content_product-offer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+.container__content__product-offer_heading {
+    color: #FFFFFF;
+    margin-left: -63px;
+}
+
+.container__content__product-offer_heading_h1 {
+    Line-height: 55px;
+    letter-spacing: 1px;
+    margin-top: -48px;
+
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.container__content__product-offer_heading_span {
+    display: block;
+    font-size: 38px;
+    font-weight: 100;
+}
+
+p {
+
+
+    margin: 0;
+}
+
+.container__content__product-offer_heading_h2 {
+    font-size: 18px;
+
+    font-weight: 100;
+    margin-top: 27px;
+}
+
+.container__content__product-offer_buttons_input {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 14px 33px;
+    margin-left: 61px;
+    color: #BCBCBC;
+}
+
+.container__content__product-offer_buttons_button {
+    background: #F86161;
+    border-radius: 12px;
+    padding: 14px 41px;
+    margin-left: 9px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+
+.container__content__model_girl {
+
+}
+
+.container__content__model {
+    height: 700px;
+    width: 40%;
+    background: url(img/girl.png) no-repeat -41px 38px,
+    url(img/rectangle.png) 12px 103px no-repeat,
+    url(img/tch.png) no-repeat top 80px right 60px;
+    background-size: 422px 544px, 354px 480px, 87px;
+}
+
+
+/*
+
+
+ */
+.container__content__model_orange {
+    width: 445px;
+    height: 558px;
+    border-radius: 59px;
+    background-color: #F86161;
+    position: relative;
+    margin-top: 113px;
+    z-index: 0;
+}
+
+
+.container__content__model_calculations-sale {
+
+
+    border-radius: 21px;
+    color: #FFFFFF;
+    background: #121B30;
+    display: inline-flex;
+    align-items: center;
+
+    font-size: 12px;
+
+
+    margin: 277px 0 0 186px;
+    padding: 13px 13px;
+    position: absolute;
+
+}
+
+.container__content__model_calculations-sale_ellipse {
+    width: 43px;
+    height: 45px;
+    border-radius: 50%;
+    background: white url("img/color.png") no-repeat center;
+    text-align: center;
+    margin: 4px 0 0 3px;
+}
+
+.container__content__model_calculations-client_ellipse {
+    width: 42px;
+    height: 36px;
+    border-radius: 50%;
+    background: white url("img/people.png") no-repeat center;
+    margin: -6px 0 11px 2px;
+}
+
+.container__content__model_calculations-client {
+
+    border-radius: 21px;
+    color: #FFFFFF;
+    background: #121B30;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 21px;
+
+
+    margin: 72px 0 0 -41px;
+    padding: 32px 31px;
+}
+
+
+.container__content__product-offer_buttons {
+    margin-top: 58px;
+}
+
+.container__content__model_calculations-client_p {
+    text-align: center;
+
+
+}
+
+.container__content__model_calculations-client_ellipse_span {
+    display: block;
+    font-size: 9px;
+    font-weight: 300;
+    margin-top: 2px;
+}
+
+/*  графика   */
+.container__content__model__graphic {
+    display: inline-flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    margin: 422px 0 0 75px;
+    border-radius: 14px;
+    position: absolute;
+
+}
+
+.container__content__model_graphic_content_img {
+    height: 144px;
+    width: 259px;
+}
+
+.container__content__model__graphic_header {
+    color: #121B30;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container__content__model__graphic_header_graph {
+    width: 43px;
+    height: 45px;
+    border-radius: 50%;
+    background: white url("img/arrow.png") no-repeat center;
+}
+
+.container__content__model__graphic_header_h {
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.container__content__model_graphic_content {
+
+}
+
+.container__content__model_calculations-sale_ellipse_text {
+    margin: 0 0 0 15px;
+}
+
+
+@media ( max-width: 1199px) {
+    .container__menu-header_menu {
+        font-size: 20px;
+    }
+
+    .container__menu-header_logo_img {
+        height: 31px;
+        width: 50px;
+
+    }
+
+    .container__menu-header_contacts {
+        font-size: 12px;
+    }
+
+    .container__content__product-offer_heading_h1 {
+        font-size: 44px;
+    }
+
+    .container__content__product-offer_heading_span {
+        font-size: 58px;
+    }
+
+    .container__content__product-offer_heading_h2 {
+        font-size: 25px;
+    }
+
+
+    .container__content__product-offer_buttons_input,
+    .container__content__product-offer_buttons_button {
+        font-size: 18px;
+    }
+
+    .container__menu-header_contacts {
+        font-size: 20px;
+    }
+
+    .container__content__model {
+        background: url(img/girl.png) no-repeat -41px 38px,
+        url(img/rectangle.png) 12px 103px no-repeat,
+        url(img/tch.png) no-repeat top 80px right 60px;
+        background-size: 422px 544px, 354px 480px, 87px;
+    }
+
+    .container__content__model_calculations-sale {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__content__model_calculations-sale_ellipse_text {
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+
+
+}
+
+@media ( max-width: 768px) {
+
+    .container__content {
+        flex-direction: column;
+    }
+
+    .container__menu-header_contacts {
+        display: none;
+    }
+
+    .container__content {
+        margin: 87px 0 0 0;
+    }
+
+    .container__menu-header_menu {
+        font-size: 39px;
+    }
+
+    .container__content__product-offer_heading_h1 {
+        font-size: 54px;
+    }
+
+    .container__content__product-offer_heading_h2 {
+        font-size: 33px;
+    }
+
+    .container__content__product-offer_buttons_input {
+
+    }
+
+    .container__content_product-offer {
+        width: 100%;
+    }
+
+    .container__content__model {
+        width: 100%;
+    }
+
+    .container__content__model {
+        background: url(img/rectangle.png) 12px 103px no-repeat;
+        background-size: 300px;
+    }
+
+    
+   /* .container__content__model {
+        background: #F86161;
+        border-radius: 76px;
+        width: 77%;
+        margin: 57px auto;
+    }  */
+    .container__content__model {
+        background: #F86161;
+        border-radius: 76px;
+        width: 77%;
+        margin: 57px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .container__content__model_calculations-client {
+        border-radius: 21px;
+        color: #FFFFFF;
+        background: #121B30;
+        /* display: inline-flex; */
+        align-items: center;
+        flex-direction: column;
+        /* font-size: 21px; */
+        /* margin: 72px 0 0 -41px; */
+        padding: 23px 19px;
+    }
+    .container__content__model_calculations-client {
+        margin: 0 0 0 34px;
+
+        font-size: 43px;
+    }
+    .container__content__model_calculations-client_ellipse_span {
+        display: block;
+        font-size: 34px;
+        font-weight: 300;
+        margin-top: 2px;
+    }
+    .container__content__model_calculations-sale {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container__content__model_calculations-sale_ellipse {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: white url(img/color.png) no-repeat center;
+        text-align: center;
+        margin: 4px 0 0 3px;
+    }
+    .container__content__model_calculations-sale_ellipse_text {
+        text-align: center;
+        margin: 10px 0 0 0;
+        font-size: 23px;
+    }
+    .container__content__model_calculations-sale_ellipse_text {
+        text-align: center;
+        margin: 10px 0 0 0;
+        font-size: 23px;
+    }
+    .container__content__model__graphic {
+        margin: 0 0 15px 26px;
+        position: static;
+    }
 
 }
